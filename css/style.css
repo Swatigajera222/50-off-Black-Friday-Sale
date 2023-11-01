@@ -9,6 +9,9 @@ body {
   margin: 0px;
   box-sizing: border-box;
   font-family: Lato-Regular;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #030c1c;
 }
 a {
   text-decoration: none;
@@ -82,7 +85,7 @@ ul {
 /* Header-section */
 .header-section {
   padding: 20px 0px;
-  background-color: rgba(0, 0, 0, 0.54);
+  background-color: #000;
   z-index: 9;
   width: 100%;
   /* position: absolute; */
@@ -121,7 +124,7 @@ ul {
 .banner-section .bg-web a {
   position: absolute;
   right: 30px;
-  bottom: 130px;
+  bottom: 80px;
   color: #fff;
   border: none;
   font-size: 40px;
@@ -284,7 +287,7 @@ ul {
 }
 /* sortable-wrap */
 .sortable-wrap {
-  background-color: #fe018a;
+  background-color: #000;
   padding: 50px 0px;
   text-align: center;
 }
@@ -298,8 +301,8 @@ ul {
   margin-bottom: 20px;
 }
 .sortable-wrap .bootcamp-start h1 {
-  color: #fff;
-  font-size: 100px;
+  color: #fe018a;
+  font-size: 120px;
   font-weight: bold;
   font-family: "Inter-Bold";
   text-transform: capitalize;
@@ -314,15 +317,13 @@ ul {
   top: -30px;
   right: -210px;
 }
-/* .sortable-wrap .bootcamp-start h1 .free-text {
-  display: block;
-} */
 .sortable-wrap .bootcamp-start p {
-  color: #000;
-  font-size: 40px;
+  color: #fff;
+  font-size: 60px;
   text-transform: capitalize;
   margin-bottom: 0px;
   font-family: Chocolates-Bold;
+  margin-top: 10px;
 }
 
 .sortable-wrap .price-btn {
@@ -341,6 +342,7 @@ ul {
 }
 .sortable-wrap .price-btn a p {
   color: #fff;
+  font-size: 40px;
 }
 .sortable-wrap .price-btn a p span {
   position: relative;
@@ -371,12 +373,53 @@ ul {
   margin-right: -20px;
 }
 .sortable-wrap .price-btn h2 span {
-  color: #000;
+  color: #fe018a;
 }
 .mobile-change-view {
   display: flex;
   flex-direction: column;
 }
+.sortable-wrap .price-wrap {
+  text-align: center;
+  color: #ffffff;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.sortable-wrap .price-wrap .price-table p {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0px;
+}
+.sortable-wrap .price-wrap .price-table .price-annual {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.sortable-wrap .price-wrap .price-table h1 {
+  font-family: Inter-Bold;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-right: 10px;
+  font-size: 50px;
+  font-weight: 600;
+}
+.sortable-wrap .price-wrap .price-table span {
+  display: inline-block;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+/* Text */
+.neon {
+  color: #fe018a;
+  text-shadow: 0 0 5px #fff, 0 0 0px #fff, 0 0 20px #fff, 0 0 0px #fe018a,
+    0 0 0px #fe018a, 0 0 0px #fe018a, 0 0 0px #fe018a, 0 0 20px #fe018a;
+  text-transform: uppercase;
+}
+
+/* END-Text */
 /* video-area */
 .video-area {
   padding: 70px 0px;
@@ -389,7 +432,7 @@ ul {
 /* annual-membership */
 .annual-membership {
   padding: 70px 0px;
-  background-color: #fe018a;
+  background-color: #000;
 }
 .annual-membership .annual-membership-inner {
   text-align: center;
@@ -411,6 +454,7 @@ ul {
 }
 .annual-membership .annual-membership-inner h3 span {
   text-transform: uppercase;
+  color: #fe018a;
 }
 .annual-membership .annual-membership-inner .membership-btn a {
   color: rgb(255, 255, 255);
@@ -461,6 +505,7 @@ ul {
   font-family: Inter-Bold;
   margin-bottom: 0px;
   min-height: 48px;
+  color: #f4f4f4;
 }
 .story-section .stroy-wrap h4 span {
   color: #fe018a;
