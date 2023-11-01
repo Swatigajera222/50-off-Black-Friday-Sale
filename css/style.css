@@ -162,7 +162,7 @@ ul {
 /* bootcamp-section */
 .bootcamp-section {
   padding-top: 40px;
-  background-color: #d6d8d8;
+  /* background-color: #d6d8d8; */
 }
 .bootcamp-section .head-title {
   text-align: center;
@@ -175,7 +175,7 @@ ul {
   margin-top: 20px;
 }
 .bootcamp-section .head-title p {
-  color: #000;
+  color: #ffffff;
   text-align: center;
   font-size: 48px;
   font-family: Inter-Bold;
@@ -200,12 +200,13 @@ ul {
 }
 .bootcamp-section ul li p {
   margin-bottom: 0px;
+  color: #f4f4f4;
 }
 .bootcamp-section ul li img {
   margin-right: 15px;
 }
 .bootcamp-section ul li strong {
-  color: #000;
+  color: #ffffff;
 }
 
 /* END bootcamp-section */
