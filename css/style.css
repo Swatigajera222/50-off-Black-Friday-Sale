@@ -433,7 +433,7 @@ ul {
 /* annual-membership */
 .annual-membership {
   padding: 70px 0px;
-  background-color: #000;
+  background-color: #545454;
 }
 .annual-membership .annual-membership-inner {
   text-align: center;
@@ -481,11 +481,15 @@ ul {
   display: none;
 }
 /* story-section */
+.story-section {
+  background-color: #fe018a;
+  padding-bottom: 70px;
+}
 .story-section .head-title {
   margin-bottom: 40px;
 }
 .story-section .head-title h1 {
-  color: #fe018a;
+  color: #fff;
 }
 .story-section .stroy-wrap {
   padding: 25px;
@@ -509,12 +513,11 @@ ul {
   color: #f4f4f4;
 }
 .story-section .stroy-wrap h4 span {
-  color: #fe018a;
+  color: #fff;
 }
 /* subscribe-section */
 .subscribe-section {
   padding: 80px 0px;
-  margin-top: 70px;
   background-image: url(..///img/subscribe.webp);
   background-repeat: no-repeat;
   background-position: center;
@@ -1024,10 +1027,11 @@ ul {
     font-size: 44px;
   }
   .subscribe-dec h2 {
-    font-size: 65px;
+    font-size: 42px;
+    margin-bottom: 20px;
   }
   .subscribe-dec h3 {
-    font-size: 30px;
+    font-size: 25px;
   }
   .subscribe-dec p {
     display: block;
@@ -1062,10 +1066,16 @@ ul {
   .annual-membership .annual-membership-inner h2 {
     font-size: 36px;
   }
+  .subscribe-dec h2 {
+    font-size: 36px;
+  }
+  .sortable-wrap .price-btn a p {
+    font-size: 25px;
+  }
 }
 @media only screen and (max-width: 374px) {
   .subscribe-dec h2 {
-    font-size: 50px;
+    font-size: 34px;
   }
   .subscribe-dec h3 {
     font-size: 22px;
