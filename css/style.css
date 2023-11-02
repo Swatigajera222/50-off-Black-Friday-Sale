@@ -770,7 +770,7 @@ ul {
     font-size: 28px;
   }
   .sortable-wrap .bootcamp-start h1 {
-    font-size: 60px;
+    font-size: 56px;
   }
   .sortable-wrap .bootcamp-start p {
     font-size: 28px;
@@ -901,6 +901,12 @@ ul {
     font-size: 35px;
     padding: 15px 30px;
     margin-top: 0px;
+  }
+}
+@media only screen and (max-width: 422px) {
+  .sortable-wrap .price-wrap .price-table {
+    width: 80%;
+    margin: auto;
   }
 }
 @media only screen and (max-width: 525px) {
@@ -1051,6 +1057,14 @@ ul {
   }
 }
 @media only screen and (max-width: 400px) {
+  .sortable-wrap .price-wrap .price-table {
+    width: 80%;
+    margin: auto;
+  }
+  .sortable-wrap .price-wrap .price-table {
+    width: 100%;
+    margin: auto;
+  }
   .sortable-wrap .bootcamp-start h3 {
     font-size: 22px;
   }
