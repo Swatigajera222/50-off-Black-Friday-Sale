@@ -124,7 +124,7 @@ ul {
 .banner-section .bg-web a {
   position: absolute;
   right: 30px;
-  bottom: 80px;
+  bottom: 7%;
   color: #fff;
   border: none;
   font-size: 40px;
@@ -152,8 +152,8 @@ ul {
   color: #fff;
   border: none;
   text-transform: uppercase;
-  left: 30px;
-  bottom: 65px;
+  right: 20px;
+  bottom: 5%;
   font-size: 28px;
   padding: 12px 20px;
   font-weight: bold;
@@ -570,7 +570,6 @@ ul {
 }
 /* footer-section */
 .footer-section {
-  background-color: #fe018a;
   color: #fff;
   padding: 30px 0px;
 }
@@ -595,7 +594,6 @@ ul {
   }
   .banner-section .bg-web a {
     right: 30px;
-    bottom: 100px;
     color: #fff;
     font-size: 28px;
     padding: 16px 40px;
@@ -665,7 +663,6 @@ ul {
   }
   .banner-section .bg-web a {
     right: 10px;
-    bottom: 80px;
     font-size: 24px;
     padding: 12px 30px;
   }
@@ -871,8 +868,6 @@ ul {
   .banner-section .bg-mobile a {
     font-size: 25px;
     padding: 0;
-    left: 20px;
-    bottom: 50px;
     width: 170px;
     height: 50px;
     display: flex;
@@ -912,7 +907,6 @@ ul {
     padding: 7px 5px;
   }
   .sortable-wrap {
-    background-color: #fe018a;
     padding: 40px 0px;
   }
   .sortable-wrap .price-wrap .price-btn p {
@@ -934,7 +928,6 @@ ul {
   .banner-section .bg-mobile a {
     font-size: 20px;
     right: 10px;
-    bottom: 58px;
     width: 140px;
     height: 43px;
     letter-spacing: 1px;
@@ -1113,6 +1106,5 @@ ul {
     font-size: 13px;
     width: 90px;
     height: 33px;
-    bottom: 40px;
   }
 }
