@@ -162,7 +162,7 @@ ul {
 /* bootcamp-section */
 .bootcamp-section {
   padding-top: 40px;
-  /* background-color: #d6d8d8; */
+  background-color: #d6d8d8;
 }
 .bootcamp-section .head-title {
   text-align: center;
@@ -175,7 +175,7 @@ ul {
   margin-top: 20px;
 }
 .bootcamp-section .head-title p {
-  color: #ffffff;
+  color: #000;
   text-align: center;
   font-size: 48px;
   font-family: Inter-Bold;
@@ -200,13 +200,13 @@ ul {
 }
 .bootcamp-section ul li p {
   margin-bottom: 0px;
-  color: #f4f4f4;
+  color: #000;
 }
 .bootcamp-section ul li img {
   margin-right: 15px;
 }
 .bootcamp-section ul li strong {
-  color: #ffffff;
+  color: #000;
 }
 
 /* END bootcamp-section */
@@ -335,9 +335,9 @@ ul {
   color: rgb(255, 255, 255);
   font-weight: 600;
   background-color: rgb(43, 196, 61);
-  font-size: 60px;
+  font-size: 50px;
   border-radius: 15px;
-  padding: 16px 30px;
+  padding: 24px 30px;
   text-transform: uppercase;
   line-height: 60px;
 }
@@ -412,6 +412,9 @@ ul {
   font-size: 18px;
   letter-spacing: 1px;
 }
+.now-text {
+  font-size: 30px !important;
+}
 /* Text */
 .neon {
   color: #fe018a;
@@ -424,6 +427,7 @@ ul {
 /* video-area */
 .video-area {
   padding: 70px 0px;
+  background-color: #fff;
 }
 .video-area iframe {
   border-radius: 20px;
@@ -433,7 +437,7 @@ ul {
 /* annual-membership */
 .annual-membership {
   padding: 70px 0px;
-  background-color: #545454;
+  background-color: #000;
 }
 .annual-membership .annual-membership-inner {
   text-align: center;
