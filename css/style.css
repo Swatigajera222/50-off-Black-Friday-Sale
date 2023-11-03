@@ -464,7 +464,7 @@ ul {
   text-shadow: 0 0 5px #fff, 0 0 0px #fff, 0 0 20px #fff, 0 0 0px #fe018a,
     0 0 0px #fe018a, 0 0 0px #fe018a, 0 0 0px #fe018a, 0 0 20px #fe018a;
   text-transform: uppercase;
-  font-size: 80px;
+  font-size: 100px;
 }
 .annual-membership .annual-membership-inner .membership-btn a {
   color: rgb(255, 255, 255);
@@ -648,8 +648,8 @@ ul {
     padding: 20px 40px;
     line-height: 40px;
   }
-  .subscribe-dec h2 {
-    font-size: 105px;
+  .annual-membership .annual-membership-inner h2 {
+    font-size: 75px;
   }
   .sortable-wrap .price-btn a p span::after {
     content: "";
@@ -662,7 +662,7 @@ ul {
   .price-btn h2 {
     font-family: Chocolates-Bold;
     color: #fff;
-    font-size: 45px !important;
+    font-size: 32px !important;
   }
   .price-btn h2 img {
     width: 100px;
@@ -676,7 +676,7 @@ ul {
     font-size: 14px;
   }
   .annual-membership .annual-membership-inner h2 {
-    font-size: 95px;
+    font-size: 75px;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -691,6 +691,9 @@ ul {
     right: 10px;
     font-size: 24px;
     padding: 12px 30px;
+  }
+  .subscribe-dec h1 {
+    font-size: 60px;
   }
   .sortable-wrap .bootcamp-start .bootcamp-inner {
     text-align: center;
@@ -726,13 +729,19 @@ ul {
     height: 420px;
   }
   .annual-membership .annual-membership-inner h2 {
-    font-size: 80px;
+    font-size: 60px;
+  }
+  .annual-membership .annual-membership-inner h3 span {
+    font-size: 60px;
   }
   .annual-membership .annual-membership-inner h3 {
     font-size: 30px;
   }
   .subscribe-dec h2 {
-    font-size: 80px;
+    font-size: 40px;
+  }
+  .subscribe-dec h2 span {
+    font-size: 55px;
   }
   .sortable-wrap .price-btn a,
   .annual-membership .annual-membership-inner .membership-btn a {
@@ -785,6 +794,9 @@ ul {
   .price-btn h2 img {
     width: 60px;
     margin-right: -5px;
+  }
+  .annual-membership .annual-membership-inner h2 {
+    font-size: 42px;
   }
   .testimonials-box p {
     font-size: 20px;
@@ -840,9 +852,6 @@ ul {
   .annual-membership {
     padding: 40px 0px;
   }
-  .annual-membership .annual-membership-inner h2 {
-    font-size: 60px;
-  }
   .story-section .stroy-wrap h4 {
     font-size: 14px;
     padding: 0px 0px;
@@ -858,9 +867,6 @@ ul {
   }
   .subscribe-dec h1 {
     font-size: 50px;
-  }
-  .subscribe-dec h2 {
-    font-size: 75px;
   }
   .subscribe-dec h3 {
     font-size: 35px;
@@ -917,6 +923,9 @@ ul {
   .annual-membership .annual-membership-inner h3 {
     font-size: 22px;
     margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
   .annual-membership .annual-membership-inner .membership-btn a {
     font-size: 30px;
@@ -936,6 +945,9 @@ ul {
   }
 }
 @media only screen and (max-width: 525px) {
+  .subscribe-dec h2 span {
+    font-size: 35px;
+  }
   .sign-up {
     font-size: 18px;
     max-width: 145px;
@@ -1059,8 +1071,9 @@ ul {
     font-size: 32px;
   }
   .subscribe-dec h2 {
-    font-size: 60px;
+    font-size: 20px;
     margin-bottom: 20px;
+    margin-top: 10px;
   }
   .subscribe-dec h3 {
     font-size: 25px;
@@ -1107,16 +1120,16 @@ ul {
     font-size: 36px;
   }
   .subscribe-dec h2 {
-    font-size: 36px;
+    font-size: 20px;
+  }
+  .subscribe-dec h2 span {
+    font-size: 30px;
   }
   .sortable-wrap .price-btn a p {
     font-size: 25px;
   }
 }
 @media only screen and (max-width: 374px) {
-  .subscribe-dec h2 {
-    font-size: 34px;
-  }
   .subscribe-dec h3 {
     font-size: 22px;
   }
