@@ -466,6 +466,9 @@ ul {
   text-transform: uppercase;
   font-size: 100px;
 }
+.annual-membership .annual-membership-inner h3 span .off-text {
+  font-size: 72px;
+}
 .annual-membership .annual-membership-inner .membership-btn a {
   color: rgb(255, 255, 255);
   font-weight: 600;
@@ -733,6 +736,9 @@ ul {
   }
   .annual-membership .annual-membership-inner h3 span {
     font-size: 60px;
+  }
+  .annual-membership .annual-membership-inner h3 span .off-text {
+    font-size: 40px;
   }
   .annual-membership .annual-membership-inner h3 {
     font-size: 30px;
