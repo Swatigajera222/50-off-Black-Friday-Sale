@@ -576,14 +576,11 @@ ul {
   font-size: 30px;
   margin-top: 40px;
   margin-bottom: 20px;
-  color: #fe018a;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  color: #fff;
   font-family: Inter-Bold;
 }
 .subscribe-dec p span {
-  color: #fff;
+  color: #fe018a;
   margin-left: 0px;
   margin-left: 10px;
 }
@@ -967,7 +964,10 @@ ul {
 }
 @media only screen and (max-width: 525px) {
   .subscribe-dec h2 span {
-    font-size: 35px;
+    font-size: 50px;
+  }
+  .subscribe-dec h2 span .off-text {
+    font-size: 38px;
   }
   .sign-up {
     font-size: 18px;
@@ -1092,7 +1092,7 @@ ul {
     font-size: 32px;
   }
   .subscribe-dec h2 {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 20px;
     margin-top: 10px;
   }
@@ -1140,10 +1140,10 @@ ul {
   .annual-membership .annual-membership-inner h2 {
     font-size: 36px;
   }
-  .subscribe-dec h2 {
-    font-size: 20px;
-  }
   .subscribe-dec h2 span {
+    font-size: 44px;
+  }
+  .subscribe-dec h2 span .off-text {
     font-size: 30px;
   }
   .sortable-wrap .price-btn a p {
